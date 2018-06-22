@@ -20,23 +20,12 @@ public class ModelTest {
 	public void testInputWordByScaner11() {
 	
 		Model model = new Model();
-		String word = "Mariia";
-		String result = model.inputWordByScaner1(word);
-		assertNotNull(result);
-		
-	}
-
-	@Test
-	public void testInputWordByScaner12() {
-	
-		Model model = new Model();
-		String word = "Marina";
+		String word = "Philip";
 		String result = model.inputWordByScaner1(word);
 		assertNull(result);
 		
 	}
-	
-	
+
 	@Test
 	public void testInputWordByScaner2() {
 		
