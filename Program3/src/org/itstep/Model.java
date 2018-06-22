@@ -33,7 +33,7 @@ public class Model {
 	}
 
 	public String inputWordByScaner1(String word) {
-		if (word.equals("")) { // Имя студента
+		if (word.equals("Mariia")) { // Имя студента
 			String correctWord = word;
 			return correctWord;
 		} else {

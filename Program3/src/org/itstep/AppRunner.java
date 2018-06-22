@@ -7,8 +7,8 @@ import org.itstep.View;
 public class AppRunner {
 
 	public static void main(String[] args) {
-		String word = "";   // Имя студента
-		int number = 0;	// Значение из диапазона(по номеру програмы)
+		String word = "Mariia";   // Имя студента
+		int number = 3;	// Значение из диапазона(по номеру програмы)
 		Model model = new Model();
 		model.setWord(word);
 		model.setNumber(number);
